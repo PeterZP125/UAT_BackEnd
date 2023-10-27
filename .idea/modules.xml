@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/UAT_BackEnd.iml" filepath="$PROJECT_DIR$/.idea/UAT_BackEnd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a_api/a_api.iml" filepath="$PROJECT_DIR$/a_api/a_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a_parent/a_parent.iml" filepath="$PROJECT_DIR$/a_parent/a_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a_service/a_service.iml" filepath="$PROJECT_DIR$/a_service/a_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a_util/a_util.iml" filepath="$PROJECT_DIR$/a_util/a_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a_web/a_web.iml" filepath="$PROJECT_DIR$/a_web/a_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeGen-10000/codeGen-10000.iml" filepath="$PROJECT_DIR$/codeGen-10000/codeGen-10000.iml" />
+    </modules>
+  </component>
+</project>

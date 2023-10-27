@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="codeGen-10000" />
+        <module name="a_web" />
+        <module name="a_service" />
+        <module name="a_api" />
+        <module name="a_util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="a_api" target="8" />
+      <module name="a_parent" target="1.8" />
+      <module name="a_service" target="8" />
+      <module name="a_util" target="8" />
+      <module name="a_web" target="8" />
+      <module name="codeGen-10000" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="a_api" options="-parameters" />
+      <module name="a_parent" options="-parameters" />
+      <module name="a_service" options="-parameters" />
+      <module name="a_util" options="-parameters" />
+      <module name="a_web" options="-parameters" />
+      <module name="codeGen-10000" options="-parameters" />
+    </option>
+  </component>
+</project>
