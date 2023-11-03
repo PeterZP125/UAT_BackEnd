@@ -14,7 +14,7 @@ public class LoginController {
     @GetMapping("user/info")
     public Object hello() {
         return new HashMap<String, Object>() {{
-            put("code", 20000);
+            put("code", 200);
             put("data", new HashMap<String, Object>() {{
                 put("roles", new String[]{"admin"});
                 put("introduction", "I am a super administrator");
@@ -27,7 +27,7 @@ public class LoginController {
     @PostMapping("login")
     public Object login(@RequestBody Map<String, Object> params) {
         return new HashMap<String, Object>() {{
-            put("code", 20000);
+            put("code", 200);
             put("data", new HashMap<String, Object>() {{
                 put("token", "admin-token");
             }});
