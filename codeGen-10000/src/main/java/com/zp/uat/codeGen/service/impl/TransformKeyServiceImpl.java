@@ -4,7 +4,7 @@ import com.zp.uat.codeGen.mapper.TransformKeyMapper;
 import com.zp.uat.codeGen.service.ITransformKeyService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.zp.uat.entity.TransformKey;
-import com.zp.uat.sys.bean.RetPage;
+import com.zp.uat.sys.bean.ResultPage;
 import com.zp.uat.vo.TransformKeyQVO;
 import com.zp.uat.vo.TransformKeyVO;
 import org.springframework.beans.BeanUtils;
@@ -33,8 +33,18 @@ public class TransformKeyServiceImpl extends ServiceImpl<TransformKeyMapper, Tra
         return true;
     }
 
+    @Transactional(readOnly = true)
     @Override
-    public RetPage<TransformKeyVO> getList(TransformKeyQVO qvo) {
-        return baseMapper.getList(qvo, new RetPage<TransformKeyVO>(qvo.getCurrent(), qvo.getSize()));
+    public ResultPage<TransformKeyVO> getList(TransformKeyQVO qvo) {
+        return baseMapper.getList(qvo, new ResultPage<TransformKeyVO>(qvo.getCurrent(), qvo.getSize()));
+    }
+
+    @Transactional(readOnly = true)
+    @Override
+    public TransformKeyVO detailEntity(String id) {
+        TransformKey transformKey = baseMapper.selectById(id);
+        TransformKeyVO transformKeyVO = new TransformKeyVO();
+        BeanUtils.copyProperties(transformKey, transformKeyVO);
+        return transformKeyVO;
     }
 }

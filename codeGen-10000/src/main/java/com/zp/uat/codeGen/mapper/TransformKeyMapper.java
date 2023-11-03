@@ -2,7 +2,7 @@ package com.zp.uat.codeGen.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.zp.uat.entity.TransformKey;
-import com.zp.uat.sys.bean.RetPage;
+import com.zp.uat.sys.bean.ResultPage;
 import com.zp.uat.vo.TransformKeyQVO;
 import com.zp.uat.vo.TransformKeyVO;
 
@@ -16,5 +16,5 @@ import com.zp.uat.vo.TransformKeyVO;
  */
 public interface TransformKeyMapper extends BaseMapper<TransformKey> {
 
-    RetPage<TransformKeyVO> getList(TransformKeyQVO qvo, RetPage<TransformKeyVO> objectRetPage);
+    ResultPage<TransformKeyVO> getList(TransformKeyQVO qvo, ResultPage<TransformKeyVO> objectRetPage);
 }
