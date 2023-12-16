@@ -36,6 +36,11 @@ public class TransformKeyVO implements Serializable {
     private String name;
 
     /**
+     * 名称(英文)
+     */
+    private String nameEn;
+
+    /**
      * 简介
      */
     private String brief;

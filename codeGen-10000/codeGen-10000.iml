@@ -19,9 +19,10 @@
           <map>
             <entry key="com.zeroturnaround.jrebel.FormatVersion" value="7.0.0" />
             <entry key="jrebelEnabled" value="true" />
+            <entry key="lastExternalPluginCheckTime" value="1702016537932" />
           </map>
         </option>
-        <option name="version" value="6" />
+        <option name="version" value="8" />
       </configuration>
     </facet>
   </component>
@@ -47,8 +48,6 @@
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.17.2" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.36" level="project" />
     <orderEntry type="library" name="Maven: jakarta.annotation:jakarta.annotation-api:1.3.5" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.30" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.30" level="project" />
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.30" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.7.17" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator:2.7.17" level="project" />
@@ -68,9 +67,7 @@
     <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.82" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.82" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.30" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.30" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.3.30" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.30" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.30" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.30" level="project" />
     <orderEntry type="module" module-name="a_service" />
@@ -93,9 +90,29 @@
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
     <orderEntry type="library" name="Maven: com.mysql:mysql-connector-j:8.0.32" level="project" />
     <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.21.9" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-security:2.7.17" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.30" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-config:5.7.11" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:5.7.11" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:5.7.11" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-web:5.7.11" level="project" />
     <orderEntry type="module" module-name="a_api" />
     <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus-generator:3.5.4" level="project" />
     <orderEntry type="module" module-name="a_util" />
     <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.31" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web-services:2.7.17" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.xml.messaging.saaj:saaj-impl:1.5.3" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.xml.soap:jakarta.xml.soap-api:1.4.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jvnet.staxex:stax-ex:1.8.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.activation:jakarta.activation:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.xml.ws:jakarta.xml.ws-api:2.3.3" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: jakarta.jws:jakarta.jws-api:2.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-oxm:5.3.30" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.30" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.30" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.30" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.ws:spring-ws-core:3.1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.ws:spring-xml:3.1.7" level="project" />
   </component>
 </module>
